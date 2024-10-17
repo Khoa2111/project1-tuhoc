@@ -88,11 +88,10 @@
 
 }
 .hero-photo .img {
-    /* background: url(../img/guy.jpg);
     width: 470px;
     height: 685px;
-    object-fit: cover; */
-
+    object-fit: cover;
+    border-radius: 20px;
 }
 /* card */
 .card-list {
