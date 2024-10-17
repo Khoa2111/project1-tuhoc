@@ -88,7 +88,7 @@
 
 }
 .hero-photo .img {
-    background: url(/project1/img/guy-lesson\ 1\ \(1\).jpg);
+    background: url(/img/guy-lesson\ 1\ \(1\).jpg);
     width: 470px;
     height: 685px;
     object-fit: cover;
@@ -402,7 +402,7 @@
     width: 72px;
     height: 72px;
     border-radius: 72px;
-    background: url(/project1/img/author.png) lightgray -51.126px -33.052px / 228.267% 342.4% no-repeat;
+    background: url(/img/author.png) lightgray -51.126px -33.052px / 228.267% 342.4% no-repeat;
 
     }
 .left-box .author {
