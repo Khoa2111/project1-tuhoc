@@ -387,9 +387,16 @@
 
 }
 .container-testimonial {
-    display: flex;
-    justify-content: space-between;
    padding: 96px 0;
+   display: flex;
+   overflow: hidden;
+}
+.test-item {
+    display: flex;
+    flex-shrink: 0;
+    width: 100%;
+    transition: all ease 0.5s;
+    transform: translateX(-100%);
 }
 /* left box testimonial */
 .container-testimonial .left-box {
@@ -430,6 +437,7 @@
 .right-box {
     width: 770px;
     height: 188px;  
+
 }
 .right-box .quote {
     width: 30px;
@@ -524,6 +532,9 @@
 .blog__body-list {
     display: flex;
     gap: 30px;
+    overflow: hidden;
+    transition: all ease 0.5s;
+    transform: translateX(-100%);
 }
 .blog__body-item {
     width: 370px;
@@ -576,6 +587,10 @@
     font-weight: 600;
     line-height: 28px; /* 175% */
     padding: 12px 0;
+}
+.box-blog-title {
+    text-decoration: none;
+
 }
 .blog__body-item-info .btn-more {
     width: 118px;
